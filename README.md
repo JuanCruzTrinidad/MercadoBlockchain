@@ -1,27 +1,9 @@
-# login-blockchain
-Pasos: 
-1. Crear una base de datos en MySQL con el nombre 'mercadoblockchain'.
-2. Modificar el run.py con tus datos (mysql+pqmysql://user:password@host/database).
-3. Crear un ambiente e instalar los paquetes ejecutando el siguiente comando: pip install -r requierements.txt
-4. Instalar en consola:
-npm install truffle
-pip install web3
-pip install Flask-Mail
-5. Dentro de la consola escribir 'python3', y luego:
->>> from run import db
+Trabajo en  grupo para la facultad.
 
->>> db.create_all()
-6. Instalar los siguientes paquetes en la consola:
-npm install -g vue-cli
-npm install --save axios
-pip install -U flask-cors
-7. Ejecutar los siguientes comandos:
-set "FLASK_APP=run.py"
-set "FLASK_ENV=development"
-8. Ejecutar 'flask run'.
-9. Dirigirse a localhost:5000 y la magia ocurrira.
+Añado link, para probar de forma correct el uso de los smart contract es necesario generar un usuario con una clave privada de la red de prueba de ethereum ropsten.
 
-Base de datos en local: 'mysql+pymysql://root:@localhost/mercadoblockchain'
-Base de datos en web: 'mysql+pymysql://gibegod:lopez999@gibegod.mysql.pythonanywhere-services.com/gibegod$mercadoblockchain'
+http://gibegod.pythonanywhere.com/account/
 
-Issues server: https://codigofacilito.com/articulos/integracion-vue-flask
+Personalmente yo me encargue de la parte del backend.
+
+Actualizado 02/02 bug por el nodo de infura.
